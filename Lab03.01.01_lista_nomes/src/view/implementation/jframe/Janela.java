@@ -60,7 +60,9 @@ public class Janela extends JFrame implements View {
 	@Override
 	public void mostrarNomes(List<String> nomes) {
 		this.listModel.clear();
-		this.listModel.addAll(nomes);
+		int i=0;
+		for(String nome: nomes)
+			this.listModel.add(i++, nome);
 	}
 
 	@Override

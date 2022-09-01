@@ -24,9 +24,9 @@ public class ViewTerminal implements View {
 			
 			String opcao = new Scanner(System.in).nextLine();
 			
-			     if(opcao.strip().equals("1")) { this.acaoInserirNome.actionPerformed(null); }
-			else if(opcao.strip().equals("2")) { this.acaoBuscarNome .actionPerformed(null); }
-			else if(opcao.strip().equals("0")) { sair=true; }
+			     if(opcao.trim().equals("1")) { this.acaoInserirNome.actionPerformed(null); }
+			else if(opcao.trim().equals("2")) { this.acaoBuscarNome .actionPerformed(null); }
+			else if(opcao.trim().equals("0")) { sair=true; }
 			else {System.out.println("Opcao invalida");}
 			
 		}
