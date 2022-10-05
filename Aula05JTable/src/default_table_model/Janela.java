@@ -72,6 +72,8 @@ public class Janela extends JFrame {
 		paraBaixo.addActionListener(new AcaoPassarParaBaixo());
 		paraCima.addActionListener(new AcaoPassarParaCima());
 		
+		tabelaBaixo.setAutoCreateRowSorter(true);
+		
 		pack();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
