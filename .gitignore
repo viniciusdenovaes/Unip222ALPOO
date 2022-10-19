@@ -78,12 +78,6 @@ dist/
 nbdist/
 .nb-gradle/
 
-nbproject/
-manifest.mf
-build.xml
-
-
-
 
 
 
